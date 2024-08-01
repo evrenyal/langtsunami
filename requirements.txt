@@ -1,0 +1,4 @@
+deepl==1.18.0
+nltk==3.8.1
+Requests==2.32.3
+spacy==3.7.5
