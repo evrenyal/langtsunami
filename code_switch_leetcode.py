@@ -11,6 +11,7 @@ nltk.download('punkt')
 nlp_zh = spacy.load("zh_core_web_sm")
 
 # Leetspeak dictionary
+# https://github.com/BASI-LABS/parseltongue
 leet_dict = {
     'a': '4', 'e': '3', 'g': '6', 'i': '1', 'o': '0',
     's': '5', 't': '7', 'b': '8', 'l': '1'

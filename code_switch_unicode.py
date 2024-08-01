@@ -11,6 +11,7 @@ nltk.download('punkt')
 nlp_zh = spacy.load("zh_core_web_sm")
 
 # Circle emojis dictionary
+# https://github.com/BASI-LABS/parseltongue
 circle_emojis = {
     'a': ['🅐', '🅰️'], 'b': ['🅑', '🅱️'], 'c': ['🅒', '🅲'], 'd': ['🅓', '🅳'], 'e': ['🅔', '🅴'], 
     'f': ['🅕', '🅵'], 'g': ['🅖', '🅶'], 'h': ['🅗', '🅷'], 'i': ['🅘', '🅸'], 'j': ['🅙', '🅹'], 
