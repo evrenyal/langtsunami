@@ -35,7 +35,7 @@ for json_file in json_files:
         try:
             # Create the API request with a timeout
             response = requests.post(url, json={
-                'model': 'orca-mini:latest',
+                'model': '',
                 'prompt': prompt,
                 'stream': False
             }, timeout=10)
