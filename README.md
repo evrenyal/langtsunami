@@ -41,5 +41,17 @@ sudo docker build -t langtsunami .
 sudo docker run -it --network host langtsunami
 ```
 
+### LLM model
+
+fuzz.py includes a variable that allows you to change the name of your LLM model.
+
+```
+response = requests.post(url, json={
+  'model': '',
+  'prompt': prompt,
+  'stream': False
+}, timeout=10)
+```
+
 ### Results
 The outputs are generated inside the results/ directory. 
